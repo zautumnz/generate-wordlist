@@ -1,16 +1,11 @@
 {
   "root": true,
   "plugins": [
-    "zacanger"
   ],
   "env": {
     "node": true
   },
   "extends": [
-    "plugin:zacanger/recommended",
-    "plugin:zacanger/node",
-    "plugin:zacanger/typescript",
-    "plugin:zacanger/prettier-ts"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
